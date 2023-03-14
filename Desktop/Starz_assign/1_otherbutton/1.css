@@ -1,0 +1,169 @@
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+ 
+  
+  .message-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .other-messages-button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .other-messages-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px;
+  }
+  
+  .other-messages-page h2 {
+    margin-top: 0;
+  }
+  
+  .other-messages-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .other-messages-page li {
+    margin-bottom: 10px;
+  }
+  
+  .other-messages-page button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+  }
+
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .other-messages-button {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .other-messages-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px;
+  }
+  
+  .other-messages-page h2 {
+    margin-top: 0;
+  }
+  
+  .other-messages-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .other-messages-page li {
+    margin-bottom: 10px;
+  }
+  
+  .other-messages-page button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #e0e0e0;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .message-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px;
+  }
+  
+  .message-page h2 {
+    margin-top: 0;
+  }
+  
+  .custom-message-input {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+    

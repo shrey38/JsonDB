@@ -1,0 +1,12 @@
+.tags {
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  

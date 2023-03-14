@@ -1,0 +1,49 @@
+/* Chat box styles */
+#chat-box {
+    width: 100%;
+    height: 400px;
+    background-color: #f7f7f7;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Chat bubble styles */
+  .chat-bubble {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  /* User message styles */
+  .user-message {
+    float: right;
+  }
+  
+  /* Quick reply container styles */
+  #quick-reply-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Quick reply button styles */
+  .quick-reply-button {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .quick-reply-button:hover {
+    background-color: #cccccc;
+  }
+  
